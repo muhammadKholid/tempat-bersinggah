@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Particles from 'react-particles-js';
 
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
+import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+
 export default function Footer() {
-  function goUp() {}
+  useEffect(() => {
+    Events.scrollEvent.register('begin', function (to, element) {
+      console.log('begin', arguments);
+    });
+
+    Events.scrollEvent.register('end', function (to, element) {
+      console.log('end', arguments);
+    });
+
+    scrollSpy.update();
+  }, []);
+
+  function goUp() {
+    scroll.scrollToTop();
+  }
 
   return (
     <div className="footer">

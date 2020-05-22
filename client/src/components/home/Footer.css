@@ -72,7 +72,7 @@
   cursor:pointer;
 }
 
-.footer .rights, a{
+.footer .rights{
   justify-content:center;
   color: lightgrey;
   font-family: Slabo;
