@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+/* ------------- Global Classes ----------------*/
+
+:root{
+  --text-grey: #364C62;
+  --text-dark: black;
+
+  --baby-blue-eyes: #b0d7ff;
+  --dark-gunmetal: #2d3142;
+  --silver: #adacb5;
+  --light-grey: #d8d5db;
+  --lavender: #eae8ff;
+}
+a{
+  text-decoration:none;
+  color: var(--text-dark);
+}
+
+.flex-row{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+ul{
+  list-style-type:none;
+}
+
+/* -----x-------- Global Classes ---------x-------*/
+.nav{
+  background : #F5F5F5;
+  color: var(--text-dark);
+  padding: 0 2.3rem 0 2rem;
+  height: 0rem;
+  min-height: 18vh;
+  overflow: hidden;
+  transition:height 1s ease-in-out;
+}
+
+.nav .nav-menu{
+  justify-content:space-between;
+}
+
+.nav .toggle-collapse{
+  position: absolute;
+  top: 0%;
+  width: 90%;
+  cursor: pointer;
+  display:none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+
+  display:flex;
+  justify-content:flex-end;
+  padding: 2.5rem 0;
+  font-size:1.5rem;
+  color: var(--text-dark);
+}
+
+.nav .nav-items{
+  display: flex;
+  margin:0;
+}
+
+.nav-groups{
+  margin-left: 3rem;
+}
+
+.nav .nav-items .nav-link{
+  font-family: Bitter;
+  padding: 2.6rem 1rem;
+  font-size:1.3rem;
+  position: relative;
+}
+
+.nav .nav-items .nav-link:hover{
+  background-color: var(--dark-gunmetal);
+}
+
+.nav .nav-items .nav-link:hover a{
+  color: var(--light-grey);
+}
+
+.brand{
+  width: 11rem;
+  height: 7rem;
+  display:block;
+}
+
+.nav .social .icon{
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0 0.6rem;
+}
+.nav .social .icon:hover{
+  color: var(--silver);
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.nav .social{
+  padding: 2.4rem 0;
+}
+
+/* ------------- manipulated nav ---------------*/
+
+
+.nav1{
+  background : #F5F5F5;
+  color: var(--text-grey);
+  padding: 0 2.3rem 0 2rem;
+  height: 40rem;
+  min-height: 20vh;
+  overflow: hidden;
+  transition:height 1s ease-in-out;
+}
+
+.nav1 .nav-menu{
+  justify-content:space-between;
+}
+
+.nav1 .toggle-collapse{
+  position: absolute;
+  top: 0%;
+  width: 90%;
+  cursor: pointer;
+}
+
+.nav1 .toggle-collapse .toggle-icons{
+  display:flex;
+  justify-content:flex-end;
+  padding: 2.5rem 0;
+  font-size:1.5rem;
+  color: var(--text-grey);
+}
+
+.nav1 .nav-items{
+  display: flex;
+  margin:0;
+}
+
+
+.nav1 .nav-items .nav-link{
+  font-family: Bitter;
+  padding: 2.6rem 1rem;
+  font-size:1.3rem;
+  position: relative;
+}
+
+.nav1 .nav-items .nav-link:hover{
+  background-color: var(--dark-gunmetal);
+}
+
+.nav1 .nav-items .nav-link:hover a{
+  color: var(--light-grey);
+}
+
+.nav1 .social .icon{
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0 0.6rem;
+}
+.nav1 .social .icon:hover{
+  color: var(--silver);
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.nav1 .social{
+  padding: 2.4rem 0;
+}
+
+/*-------------- media query 750----------*/
+/* setiap layar mengecil menjadi 750 px, link navigsi akan turun kebawah(menjadi tak terlihat), toggle navigasi muncul*/
+@media only screen and (max-width: 750px){
+  .nav .nav-menu , .nav .nav-items {
+    flex-direction:column;
+  }
+  .nav1 .nav-menu , .nav1 .nav-items {
+    flex-direction:column;
+  }
+  .nav .toggle-collapse{
+    display: initial;
+  }
+  .nav1 .toggle-collapse{
+    display: initial;
+  }
+}

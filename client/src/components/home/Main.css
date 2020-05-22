@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Coustard&family=Prata&family=Slabo+13px&family=Suez+One&family=Vollkorn&family=Yeseva+One&display=swap');
+
+.flex-row{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+
+:root{
+  --text-grey: #364C62;
+  --text-dark: black;
+
+  --baby-blue-eyes: #b0d7ff;
+  --dark-gunmetal: #2d3142;
+  --silver: #adacb5;
+  --light-grey: #d8d5db;
+  --lavender: #eae8ff;
+}
+
+.post-info {
+  margin-left: 1rem;
+}
+.icon{
+  margin-right:0.4rem;
+}
+
+.container {
+  margin: 2rem;
+}
+
+.container .site-content{
+  margin: 2rem;
+  display:grid;
+  grid-template-columns: 70% 30%;
+}
+
+.post-image .image{
+  width: 95%;
+  height:auto;
+  overflow: hidden;
+}
+.image:hover{
+  width: 100%;
+  height:auto;
+  transition: 1s ease;
+}
+
+.site-content .post-content > .post-image, .post-title{
+  padding: 0 2rem 1rem 2rem;
+  position: relative;
+}
+
+.site-content .post-content span{
+  font-size:0.7rem;
+}
+
+.site-content .post-cantent > .post-image, .post-info{
+  background: var(--dark-gunmetal);
+  color: var(--light-grey);
+  padding: 0.7rem;
+  position: relative;
+  width:35%;
+  bottom:7vh;
+  left: 30vw;
+  border-radius:1.5rem;
+}
+
+.site-content .post-title a{
+  font-size:2rem;
+  font-family: Suez One;
+  font-stretch: semi-expanded;
+} 
+.site-content .post-title p{
+  font-size:1.2rem;
+  font-family: Slabo;
+  color: var(--text-grey);
+} 
+
+button{
+  background: var(--silver);
+  color: var(--text-dark);
+  padding: 1rem;
+  border-radius:1.5rem;
+  font-size: 0.9rem;
+}
+
+/*--------------side bar -------------------*/
+
+.site-content > .sidebar .projects-list{
+  font-family: Vollkorn;
+  font-size:1.2rem;
+}
+
+.site-content > .sidebar .projects-list .list-item{
+  padding: 2rem 1rem;
+}

@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+:root{
+  --text-grey: #364C62;
+  --text-light: #F5F5F5;
+
+  --baby-blue-eyes: #b0d7ff;
+  --dark-gunmetal: #2d3142;
+  --silver: #adacb5;
+  --light-grey: #d8d5db;
+  --lavender: #eae8ff;
+}
+
+main .site-title{
+  background:url('../../assets/PicsArt_05-22-08.18.34.jpg');
+  background-size:cover;
+  height: 110vh;
+  display:flex;
+  justify-content:center;
+  font-family:Bitter;
+  max-height:700px;
+
+  background-attachment: fixed;
+}
+
+main .site-title .avatar{
+  margin-top:10rem;
+  background-color: black;
+  width:21rem;
+  height: 23rem;
+  padding:2rem 0 1rem 0;
+  text-align:center;
+  color: var(--text-light);
+  border-radius:2%;
+  cursor: pointer;
+}
+
+main .site-title .avatar:hover{
+  transition: 1s ease-in-out;
+  margin-top:10rem;
+  background:transparent;
+  width:16rem;
+  height: 21.2rem;
+  padding:2rem;
+  text-align:center;
+  color: var(--text-light);
+  border-radius:5%;
+}
+
+main .site-title .site-content{
+  padding:0.5 1rem;
+  display:block;
+  height: auto;
+}
+
+main .site-title h1, h3{
+  margin:.3rem;
+}
+main .site-title .typed{
+  color: #fdbd10;
+}
+
+.ava {
+  margin-bottom:0.5rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 4px solid #F5F5F5;
+}
+
+
+/*--------- Responsive------------*/
+@media only screen and (max-width: 750px){
+
+  main .site-title .avatar{
+    margin-top:7rem;
+    background-color: black;
+    width:13rem;
+    height: 17rem;
+    padding:1.8rem;
+    text-align:center;
+    color: var(--text-light);
+    border-radius:5%;
+    cursor: pointer;
+  }
+  main .site-title h1, h3{
+    font-size:1.1rem;
+    margin:.3rem;
+  }
+  .ava {
+    margin-bottom:1rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 3px solid #F5F5F5;
+  }
+}
