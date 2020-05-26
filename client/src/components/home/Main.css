@@ -21,9 +21,6 @@
 .post-info {
   margin-left: 1rem;
 }
-.icon{
-  margin-right:0.4rem;
-}
 
 .container {
   margin: 2rem;
@@ -35,38 +32,44 @@
   grid-template-columns: 70% 30%;
 }
 
-.post-image .image{
-  width: 95%;
-  height:auto;
-  overflow: hidden;
-}
-.image:hover{
-  width: 100%;
-  height:auto;
-  transition: 1s ease;
-}
-
 .site-content .post-content > .post-image, .post-title{
   padding: 0 2rem 1rem 2rem;
   position: relative;
 }
 
-.site-content .post-content span{
-  font-size:0.7rem;
+
+.site-content .post-content > .post-image > div{
+  overflow: hidden;
 }
 
-.site-content .post-cantent > .post-image, .post-info{
-  background: var(--dark-gunmetal);
-  color: var(--light-grey);
-  padding: 0.7rem;
-  position: relative;
-  width:35%;
-  bottom:7vh;
-  left: 30vw;
-  border-radius:1.5rem;
+.site-content .post-content > .post-image .image{
+  width: 80%;
+  height:auto;
 }
 
-.site-content .post-title a{
+.site-content .post-content > .post-image .book-description{
+  width: 50%;
+  height:auto;
+}
+
+.site-content .post-content > .post-image .book-description h2{
+  font-size:2rem;
+  font-family: Suez One;
+  font-stretch: semi-expanded;
+}
+.site-content .post-content > .post-image .book-description p{
+  font-size:1.2rem;
+  font-family: Slabo;
+  color: var(--text-grey);
+}
+
+.site-content .post-content > .post-image .image:hover{
+  width: 90%;
+  height:auto;
+  transition: 1s ease;
+}
+
+.site-content .post-title h3{
   font-size:2rem;
   font-family: Suez One;
   font-stretch: semi-expanded;
@@ -93,5 +96,18 @@ button{
 }
 
 .site-content > .sidebar .projects-list .list-item{
-  padding: 2rem 1rem;
+  padding: 0.3rem 1rem;
+}
+
+
+/*-------------- media query 640----------*/
+@media only screen and (max-width: 640px){
+
+
+.container .site-content{
+  margin: 2rem;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
 }

@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight, faChevronUp, faStar } from '@fortawesome/free-solid-svg-icons';
 
 import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
@@ -40,13 +40,14 @@ export default function Footer() {
           },
         }}
       />
-      <div className="container">
+      <div className="container flex-row">
         <div className="aboutMe">
           <h2>About Me</h2>
           <p>
-            Tempat Bersinggah is a brand that is made by me. It's actually a place where I can
-            express my opinions, thought, and feelings. And also, It's possible to share my
-            knowledge about what i just learned.{' '}
+            Tempat Bersinggah is a place where I can express my opinions and thoughts about books.
+            You can read reviews of a book that I've red. Absolutely, you can join me to discuss
+            about it. Don't worry if you haven't read the book, send me your email and you'll read
+            it free :){' '}
           </p>
         </div>
         <div className="newsLetter">
@@ -60,7 +61,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="follow">
-          <h2>Follow me :)</h2>
+          <h2>Do you like my page? </h2>
+          <p>
+            {' '}
+            Give me a star :) <FontAwesomeIcon icon={faStar} />
+          </p>
         </div>
       </div>
       <div className="rights flex-row">

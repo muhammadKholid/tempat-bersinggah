@@ -12,7 +12,7 @@
   --light-grey: #d8d5db;
   --lavender: #eae8ff;
 }
-a{
+p, a{
   text-decoration:none;
   color: var(--text-dark);
 }
@@ -31,14 +31,17 @@ ul{
   background : #F5F5F5;
   color: var(--text-dark);
   padding: 0 2.3rem 0 2rem;
-  height: 0rem;
-  min-height: 18vh;
+  min-height: 14vh;
   overflow: hidden;
   transition:height 1s ease-in-out;
 }
 
 .nav .nav-menu{
   justify-content:space-between;
+}
+
+.nav .nav-menu .nav-brand{
+  margin-top: 0.7rem;
 }
 
 .nav .toggle-collapse{
@@ -64,7 +67,7 @@ ul{
 }
 
 .nav-groups{
-  margin-left: 3rem;
+  margin: 0 3rem;
 }
 
 .nav .nav-items .nav-link{
@@ -78,7 +81,7 @@ ul{
   background-color: var(--dark-gunmetal);
 }
 
-.nav .nav-items .nav-link:hover a{
+.nav .nav-items .nav-link:hover p{
   color: var(--light-grey);
 }
 
@@ -99,7 +102,7 @@ ul{
   height: 1.8rem;
 }
 .nav .social{
-  padding: 2.4rem 0;
+  padding: 3.5rem 0;
 }
 
 /* ------------- manipulated nav ---------------*/
@@ -151,7 +154,7 @@ ul{
   background-color: var(--dark-gunmetal);
 }
 
-.nav1 .nav-items .nav-link:hover a{
+.nav1 .nav-items .nav-link:hover p{
   color: var(--light-grey);
 }
 

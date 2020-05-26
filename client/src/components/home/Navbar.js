@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
+import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -10,6 +12,25 @@ import './Navbar.css';
 
 export default function Navbar() {
   const [toggleNav, setToggleNav] = useState(false);
+
+  useEffect(() => {
+    Events.scrollEvent.register('begin', function (to, element) {
+      console.log('begin', arguments);
+    });
+
+    Events.scrollEvent.register('end', function (to, element) {
+      console.log('end', arguments);
+    });
+
+    scrollSpy.update();
+  }, []);
+
+  function goDown() {
+    scroll.scrollToBottom();
+  }
+  function goTo() {
+    scroll.scrollTo(850);
+  }
 
   function changeVal() {
     if (toggleNav) {
@@ -42,13 +63,10 @@ export default function Navbar() {
         <div className="nav-groups">
           <ul className="nav-items">
             <li className="nav-link">
-              <a href="/">Home</a>
+              <p onClick={() => goTo()}>My Review</p>
             </li>
             <li className="nav-link">
-              <a href="/#">My Work</a>
-            </li>
-            <li className="nav-link">
-              <a href="/#">About</a>
+              <p onClick={() => goDown()}>About me</p>
             </li>
           </ul>
         </div>

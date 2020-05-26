@@ -6,14 +6,13 @@ import Ava from '../../assets/LRM_EXPORT_804512871102293_20200521_235837975.jpeg
 
 const textLines = [
   `Hello Stranger!`,
+  `I am a man behind this web`,
   `I am a Web Developer,`,
   `A Photographer in vacation time,`,
   `A Dancer when listening a nice beat,`,
   `An Amateur Vocalist,`,
-  `want to be a Writter one day,`,
-  `and author of Tempat Bersinggah.`,
-  `Actually still have no idea what tempat bersinggah is, lol,`,
-  `but it's gonna be my markbrand.`,
+  `and An average Stroy Teller.`,
+  `Welcome to my page and have a nice day :)`,
 ];
 
 export default function Header() {
