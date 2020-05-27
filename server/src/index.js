@@ -1,21 +1,27 @@
-import mongoose from 'mongoose';
 import { ApolloServer } from 'apollo-server';
+import { makeExecutableSchema } from 'graphql-tools';
+import { merge } from 'lodash';
+import mongoose from 'mongoose';
 
-import { typeDefs } from './schemas/index';
-import { resolvers } from './resolvers/index';
+import rootTypeDefs from './root';
+import { contentTypeDefs, contentResolvers } from './schemas/content.schema';
+import { commentTypeDefs, commentResolvers } from './schemas/comment.schema';
+import { bookTypeDefs, bookResolvers } from './schemas/book.schema';
 
-const serverReady = async () => {
-  const server = new ApolloServer({ typeDefs, resolvers });
+import config from './config';
 
-  await mongoose.connect('mongodb://localhost:27017/tempat-bersinggah', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-  });
+mongoose.connect(config.mongodb.uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-  server.listen().then(({ url }) => {
-    console.log('Listening on port :', url);
-  });
-};
+const schema = makeExecutableSchema({
+  typeDefs: [rootTypeDefs, contentTypeDefs, commentTypeDefs, bookTypeDefs],
+  resolvers: merge(contentResolvers, commentResolvers, bookResolvers),
+});
 
-serverReady();
+const server = new ApolloServer({ schema });
+
+server.listen().then(({ url }) => {
+  console.log(`Listening on port : ${url}`);
+});
