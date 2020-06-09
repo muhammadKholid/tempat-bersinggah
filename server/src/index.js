@@ -22,6 +22,9 @@ const schema = makeExecutableSchema({
 
 const server = new ApolloServer({ schema });
 
+export { mongoose, ApolloServer, makeExecutableSchema, merge };
+
 server.listen().then(({ url }) => {
   console.log(`Listening on port : ${url}`);
 });
+
