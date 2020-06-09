@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './Main.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faUser, faCalendarAlt, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane, faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function Main() {
   return (
@@ -53,53 +53,71 @@ export default function Main() {
                 ke-Eropa-an yang menjadi simbol dan kiblat dari ketinggian pengetahuan dan
                 peradaban.
               </p>
-              <Link to="/review">
-                <button>
-                  {' '}
-                  Read My Review <FontAwesomeIcon icon={faArrowRight} />{' '}
-                </button>
-              </Link>
+              {/* <Link to="/review"> */}
+              {/*   <button> */}
+              {/*     {' '} */}
+              {/*     Read My Review <FontAwesomeIcon icon={faArrowRight} />{' '} */}
+              {/*   </button> */}
+              {/* </Link> */}
             </div>
           </div>
-          {/* <hr></hr> */}
+          <hr></hr>
         </div>
 
         <aside className="sidebar">
           <div className="projects">
             <h1>
-              <FontAwesomeIcon icon={faBook} />
-              &nbsp;&nbsp;My E-Book's Collections
+              <FontAwesomeIcon icon={faPaperPlane} />
+              &nbsp;&nbsp;My Random Thought
             </h1>
-            <ul className="projects-list">
-              <li className="list-item">
-                <span>
-                  <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565658920l/1398034._SY475_.jpg">
-                    &nbsp;&nbsp;Bumi Manusia
-                  </a>
-                </span>
-              </li>
-              <li className="list-item">
-                <span>
-                  <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464929002l/1398044.jpg">
-                    &nbsp;&nbsp;Anak Semua Bangsa
-                  </a>
-                </span>
-              </li>
-              <li className="list-item">
-                <span>
-                  <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360760182l/1398066.jpg">
-                    &nbsp;&nbsp;Jejak Langkah
-                  </a>
-                </span>
-              </li>
-              <li className="list-item">
-                <span>
-                  <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360646538l/1353452.jpg">
-                    &nbsp;&nbsp;Rumah Kaca
-                  </a>
-                </span>
-              </li>
-            </ul>
+            <div className="projects-thoughts">
+              <p>
+                <FontAwesomeIcon icon={faStar} />
+                &nbsp;&nbsp;June 9, 2020
+              </p>
+              <p>
+                Today is debut of my website. I have been so confused what is my website gonna be.
+                Then I decided to review a book that I've red and also give you e-book for free if
+                you want. Contact me through my social media account.
+              </p>
+            </div>
+            {/* <ul className="projects-list"> */}
+            {/*   <li className="list-item"> */}
+            {/*     <span> */}
+            {/*       <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565658920l/1398034._SY475_.jpg"> */}
+            {/*         &nbsp;&nbsp;Bumi Manusia */}
+            {/*       </a> */}
+            {/*     </span> */}
+            {/*   </li> */}
+            {/*   <li className="list-item"> */}
+            {/*     <span> */}
+            {/*       <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464929002l/1398044.jpg"> */}
+            {/*         &nbsp;&nbsp;Anak Semua Bangsa */}
+            {/*       </a> */}
+            {/*     </span> */}
+            {/*   </li> */}
+            {/*   <li className="list-item"> */}
+            {/*     <span> */}
+            {/*       <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360760182l/1398066.jpg"> */}
+            {/*         &nbsp;&nbsp;Jejak Langkah */}
+            {/*       </a> */}
+            {/*     </span> */}
+            {/*   </li> */}
+            {/*   <li className="list-item"> */}
+            {/*     <span> */}
+            {/*       <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360646538l/1353452.jpg"> */}
+            {/*         &nbsp;&nbsp;Rumah Kaca */}
+            {/*       </a> */}
+            {/*     </span> */}
+            {/*   </li> */}
+            {/*   <li className="list-item"> */}
+            {/*     <span> */}
+            {/*       <a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360646538l/1353452.jpg"> */}
+            {/*         &nbsp;&nbsp;And Many more. Just ask me through my social media. */}
+            {/*       </a> */}
+            {/*     </span> */}
+            {/*   </li> */}
+            {/* </ul> */}
           </div>
         </aside>
       </div>

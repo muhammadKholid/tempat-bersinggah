@@ -63,7 +63,7 @@ export default function Navbar() {
         <div className="nav-groups">
           <ul className="nav-items">
             <li className="nav-link">
-              <p onClick={() => goTo()}>My Review</p>
+              <p onClick={() => goTo()}>Book's Review</p>
             </li>
             <li className="nav-link">
               <p onClick={() => goDown()}>About me</p>
@@ -72,7 +72,7 @@ export default function Navbar() {
         </div>
 
         <div className="social text-grey">
-          <a href="https://github.com/muhammadKholid">
+          <a href="https://github.com/muhammadKholid/tempat-bersinggah">
             <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
           <a href="https://www.linkedin.com/in/muhammad-kholid-a57a051a9/">

@@ -34,7 +34,14 @@ export default function Footer() {
               value: 200,
               density: {
                 enable: true,
-                value_area: 1000,
+                value_area: 3000,
+              },
+            },
+            shape: {
+              type: 'edge', // Can show circle, edge (a square), triangle, polygon, star, img, or an array of multiple.
+              stroke: {
+                width: 1.5,
+                color: '#fdbd10',
               },
             },
           },
@@ -44,27 +51,26 @@ export default function Footer() {
         <div className="aboutMe">
           <h2>About Me</h2>
           <p>
-            Tempat Bersinggah is a place where I can express my opinions and thoughts about books.
-            You can read reviews of a book that I've red. Absolutely, you can join me to discuss
-            about it. Don't worry if you haven't read the book, send me your email and you'll read
-            it free :){' '}
+            Tempat Bersinggah is a place where I can express my opinions and thoughts. I'll be
+            posting my content either in english or native ,and it can be praise or curse (just
+            kidding). And also you can read review of a book that I've red. Thanks for visiting.{' '}
           </p>
         </div>
-        <div className="newsLetter">
-          <h2>NewsLetter</h2>
-          <p>Stay update with my new new :)</p>
-          <div className="form-element">
-            <input type="text" placeholder="your email ..." />
-            <span>
-              <FontAwesomeIcon icon={faChevronRight} />
-            </span>
-          </div>
-        </div>
+        {/* <div className="newsLetter"> */}
+        {/*   <h2>NewsLetter</h2> */}
+        {/*   <p>Stay update with my new new :)</p> */}
+        {/*   <div className="form-element"> */}
+        {/*     <input type="text" placeholder="your email ..." /> */}
+        {/*     <span> */}
+        {/*       <FontAwesomeIcon icon={faChevronRight} /> */}
+        {/*     </span> */}
+        {/*   </div> */}
+        {/* </div> */}
         <div className="follow">
           <h2>Do you like my page? </h2>
           <p>
             {' '}
-            Give me a star :) <FontAwesomeIcon icon={faStar} />
+            Give me a star in my github repository :) <FontAwesomeIcon icon={faStar} />
           </p>
         </div>
       </div>

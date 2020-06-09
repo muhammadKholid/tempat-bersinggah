@@ -11,7 +11,7 @@ const textLines = [
   `A Photographer in vacation time,`,
   `A Dancer when listening a nice beat,`,
   `An Amateur Vocalist,`,
-  `and An average Stroy Teller.`,
+  `and I like making up random rhymes.`,
   `Welcome to my page and have a nice day :)`,
 ];
 
