@@ -41,17 +41,32 @@ export default function Main() {
             <div className="post-title">
               <h3>Bumi Manusia, romansa tragis dizaman belanda.</h3>
               <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Roman Tetralogi Buru
-                mengambil latar belakang dan cikal bakal nation Indonesia di awal abad ke-20. Dengan
-                membacanya waktu kita dibalikkan sedemikian rupa dan hidup di era membibitnya
-                pergerakan nasional mula-mula, juga pertautan rasa, kegamangan jiwa, percintaan, dan
-                pertarungan kekuatan anonim para srikandi yang mengawal penyemaian bangunan nasional
-                yang kemudian kelak melahirkan Indonesia modern. Roman bagian pertama; Bumi Manusia,
-                sebagai periode penyemaian dan kegelisahan dimana Minke sebagai aktor sekaligus
-                kreator adalah manusia berdarah priyayi yang semampu mungkin keluar dari kepompong
-                kejawaannya menuju manusia yang bebas dan merdeka, di sudut lain membelah jiwa
-                ke-Eropa-an yang menjadi simbol dan kiblat dari ketinggian pengetahuan dan
-                peradaban.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dulu waktu kuliah, saya
+                pernah mengikuti seminar tentang sastra. Saya lupa apa nama seminarnya dan pengisi
+                acaranya karena sudah 3 tahun yang lalu. Ketika itu si pengisi acara menanyakan ke
+                para audiens apakah mengenal sastrawan indonesia bernama Pramoedya Ananta Toer?.
+                Pada waktu itu saya tidak mengenal siapa orang tersebut. Entah berselang 1 tahun
+                kedepan, teman saya bercerita sedikit tentang buku bumi manusia ini. Dengan cara dia
+                menceritakkan isi buku ini sangat menarik. "Percintaan yang penuh politik nan
+                tragis", dia menceritakan kepadaku. "boleh lah aku pinjam" aku menyahut. Karena
+                teman saya in sangat jarang keliatan akan kesibukan kerjanya, akhirnya saya
+                memutuskan untuk membeli bukunya yang versi bekas di jl. Semarang. Dan akhirnya
+                sayapun membaca buku tersebut.
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ketika setelah saya
+                membaca buku beliau ini, jujur saya sangat terkagum. Bahkan saya ingin menjadi
+                penulis seperti beliau. Di buku bumi manusia ini kalian akan di ajak berjalan-jalan
+                mengarungi waktu di awal tahun 1900-an. Dimulai dari kehidupan sosialnya, maupun
+                politik. Beliau sangat jenius bisa menggabungkan antara percintaan(genre yang sangat
+                banyak diminati banyak kalangan remaja) dengan salah satu permasalahan yang terjadi
+                di zaman penjajahan kala itu yang nantinya akan menjadi buku petunjuk bagaimana
+                perpolitikan Indonesia ini terbentuk(Tapi itu nanti di seri tetra buru berikutnya).
+                Percintaannya pun sangat tragis karena sang pemeran utama, Minke, mencintai seorang
+                anak Nyai, Nyai Ontosoroh(Nyai adalah sebutan bagi perempuan simpanan pembesar
+                belanda kala itu. Dan dipandang sebelah mata oleh masyarakat sekitar meskipun secara
+                ekonomi lebih baik daripada rakyat yang memandang sebelah mata tersebut.). Nama
+                gadis ini adalah Annelis. Bersambung dulu teman, capek ternyata nulis :)
               </p>
               {/* <Link to="/review"> */}
               {/*   <button> */}
