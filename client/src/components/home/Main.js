@@ -130,8 +130,8 @@ export default function Main() {
               </p>
               <p>
                 Soo, I added a new feature to my website. Maybe you are looking for e-book for your
-                duty or just spending your time while reading an e-book in this pandemic situation.
-                Go to newsletter below and write down your email and the e-book.
+                duty or just for spending your time in this pandemic situation. Go to newsletter
+                below and write down your email and the e-book.
               </p>
             </div>
             {/* <ul className="projects-list"> */}

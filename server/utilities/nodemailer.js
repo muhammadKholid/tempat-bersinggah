@@ -15,8 +15,8 @@ const sendEmail = async (mail, sub, text) => {
   });
 
   let mailDetails = {
-    from: process.env.EMAIL,
-    to: mail,
+    from: mail,
+    to: process.env.EMAIL,
     subject: sub,
     text: text,
   };

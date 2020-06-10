@@ -2,7 +2,7 @@ import { SEND_EMAIL } from './Types';
 
 export const sendEmail = (data) => {
   return (dispatch, _) => {
-    fetch(`http://localhost:3001/send-mail`, {
+    fetch(`https://thawing-temple-34028.herokuapp.com/send-mail`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
