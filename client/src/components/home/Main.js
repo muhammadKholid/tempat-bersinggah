@@ -66,7 +66,34 @@ export default function Main() {
                 anak Nyai, Nyai Ontosoroh(Nyai adalah sebutan bagi perempuan simpanan pembesar
                 belanda kala itu. Dan dipandang sebelah mata oleh masyarakat sekitar meskipun secara
                 ekonomi lebih baik daripada rakyat yang memandang sebelah mata tersebut.). Nama
-                gadis ini adalah Annelis. Bersambung dulu teman, capek ternyata nulis :)
+                gadis ini adalah Annelis. Dia tergambarkan gadis yang sangat sempurna oleh Pram. Dia
+                wanita yang cerdas, dapat diandalkan, bahkan bisnis yang dijalankan oleh Nyai
+                Ontosoroh pun dia yang menanganinya.
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meraka, Minke dan
+                Annelis sempat menikah, tapi karena perbedaan budaya antara Belanda dan
+                Pribumi(dinovel status agama Minke adalah islam, maka pernikahan mereka dilakukan
+                secara hukum islam), pernikahan mereka menjadi kontroversi di Surabaya. Hukum di
+                Belanda meyakini pernikahan dini adalah suatu tindakan tidak pantas, sedangkan
+                Pribumi menganggap pernikahan itu sah secara hukum islam. Sungguh tragis. Sampai
+                akhirnya permasalahan tersebut harus dibawa ke ranah pengadilan.
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kalian pasti sudah bisa
+                menebak siapa yanag memenangkan pengadilan tersebut. Apapun yang berstatuskan
+                pemilik orang belanda, maka harus mengikuti hukum Belanda. Akhirnya hukum memutuskan
+                Annelis akan 'dipulangkan' kembali ke Belanda bersama keluarga besar ayahnya,
+                Mellema. Tak hanya itu, kekeyaan yang ditangani oleh Nyai Ontosoroh pun harus
+                dikembalikan kepada keluarga besar Mellema di belanda(padahal Ayahnya tak menangani
+                sama sekali. Nanti akan diceritakan diseri kedua kisah bagaimana Nyai Ontosoroh bisa
+                menjadi seorang pribumi nan berstatuskan Nyai bisa memiliki kekayaan sebesar ini).
+              </p>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Itulah kisah cinta
+                Minke dan Annelis di Bumi Manusia ini. Sebenarnya ada kisah persahabatannya juga di
+                Bumi Manusia ini. Tapi, biarlah kalian yang menelusurinya sendiri dengan membacanya.
+                Tunggu review seri berikutnya yaaa, Thanks for visitiing :)
               </p>
               {/* <Link to="/review"> */}
               {/*   <button> */}

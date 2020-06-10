@@ -29,7 +29,7 @@ export default function Navbar() {
     scroll.scrollToBottom();
   }
   function goTo() {
-    scroll.scrollTo(850);
+    scroll.scrollTo(1350);
   }
 
   function changeVal() {
