@@ -14,7 +14,7 @@ app.post('/send-mail', async (req, res) => {
   const mail = req.body.email;
   const book = req.body.book;
   const subs = 'Tempat Bersinggah bagi bagi ebook gratis :)';
-  const text = `Hai, saya tertarik dengan buku ${book}, apakah ada diderectory anda? kalo ada saya tertarik untuk membacanya. terimakasih`;
+  const text = `Hai, saya tertarik dengan buku ${book}, apakah ada didirectori anda? kalo ada saya tertarik untuk membacanya. Kirim ke ${mail} jika anda memilikinya. Terimakasih`;
   await sendEmail(mail, subs, text);
   res.status(201).json({ message: 'Succesfully sending data into your mail boss!' });
   res.end();
