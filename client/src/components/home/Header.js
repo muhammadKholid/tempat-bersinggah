@@ -2,7 +2,7 @@ import React from 'react';
 import Typed from 'react-typed';
 import './Header.css';
 
-import Ava from '../../assets/LRM_EXPORT_804512871102293_20200521_235837975.jpeg';
+import Ava from '../../assets/OCT_5183_edited.jpeg';
 
 const textLines = [
   `Hello Stranger!`,
