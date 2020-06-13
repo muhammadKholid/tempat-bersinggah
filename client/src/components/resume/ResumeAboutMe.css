@@ -1,0 +1,12 @@
+:root{
+
+  --light-dark: #525252;
+  --medium-Dark: #414141;
+  --dark: #313131;
+  --yellowish: #fdbd10;
+}
+
+.container-aboutme{
+  min-height: 100vh;
+  background-color: #414141;
+}

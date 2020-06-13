@@ -6,11 +6,15 @@
   --text-grey: #364C62;
   --text-dark: black;
 
+  --light-dark: #525252;
+  --medium-Dark: #414141;
+  --dark: #313131;
   --baby-blue-eyes: #b0d7ff;
   --dark-gunmetal: #2d3142;
   --silver: #adacb5;
   --light-grey: #d8d5db;
   --lavender: #eae8ff;
+  --yellowish: #fdb94e;
 }
 
 .flex-row{
@@ -37,7 +41,7 @@
 }
 
 .footer .container h2{
-  color: #fdb94e;
+  color: var(--yellowish);
   font-family: Prata;
 }
 .footer .container p{
@@ -61,7 +65,7 @@
 }
 .footer .newsLetter .form-element span{
   padding:.5rem .7rem;
-  background: #fdbd10;
+  background: var(--yellowish);
   cursor:pointer;
 }
 
@@ -72,12 +76,12 @@
 }
 
 .footer .rights a{
-  color: #fdb94e;
+  color: var(--yellowish);
   font-family: Slabo;
 }
 
 .footer .movement{
-  background-color: #fdbd10;
+  background-color: var(--yellowish);
   padding:.5rem;
   width:1rem;
   height:1.2rem;

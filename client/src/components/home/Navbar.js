@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
@@ -67,6 +68,11 @@ export default function Navbar() {
             </li>
             <li className="nav-link">
               <p onClick={() => goDown()}>About me</p>
+            </li>
+            <li className="nav-link">
+              <Link to="/resume">
+                <p>My Resume</p>
+              </Link>
             </li>
           </ul>
         </div>

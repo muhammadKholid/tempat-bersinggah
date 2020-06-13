@@ -3,27 +3,27 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './stores';
 
-import Navbar from './components/home/Navbar';
-import Footer from './components/home/Footer';
+// import Navbar from './components/home/Navbar';
+// import Footer from './components/home/Footer';
 
 import Home from './pages/Home';
-import DetailReview from './pages/DetailReview';
+import Resume from './pages/Resume';
 
 function App() {
   return (
     <Provider store={store}>
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
 
         <Switch>
-          <Route path="/review">
-            <DetailReview />
+          <Route path="/resume">
+            <Resume />
           </Route>
           <Route exact path="/">
             <Home />
           </Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </Provider>
   );

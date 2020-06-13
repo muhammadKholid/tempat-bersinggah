@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import Particles from 'react-particles-js';
 
 import { sendEmail } from '../../stores/actions/Action';

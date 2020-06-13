@@ -1,0 +1,94 @@
+/*-------------------- font ---------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/*-------------------- global css ---------------------*/
+
+
+:root{
+  --text-grey: #364C62;
+  --text-dark: black;
+  --text-light: #F5F5F5;
+
+  --baby-blue-eyes: #b0d7ff;
+  --dark-gunmetal: #2d3142;
+  --silver: #adacb5;
+  --light-grey: #d8d5db;
+  --lavender: #eae8ff;
+  --yellowish: #fdbd10;
+}
+
+.flex-row{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+/*---------x----------- global css ----------x-----------*/
+.App{
+  margin:0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home{
+  min-height:100vh;
+  background-image: url('../assets/OCT_5183-02.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 5vh;
+}
+
+.home .full-screen{
+  margin: 0 7vw;
+  min-height: 100vh;
+}
+
+.home .home-content{
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .home-content .block{
+  max-width: 75%;
+  margin-top: 10vh;
+  padding-left: 3vw;
+  border-left: 5px solid #fff;
+}
+
+.home .home-content .block h6{
+  color: #fff;
+  font-size:18px;
+  font-weight: 500;
+  margin:0;
+  padding:0;
+  line-height: 1.2;
+}
+.home .home-content .block h1{
+  color: #fff;
+  font-size:60px;
+  font-weight: 700;
+  margin:0;
+  padding:0;
+  line-height: 1.2;
+}
+.home .home-content .block h3{
+  color: #fff;
+  font-size:40px;
+  font-weight: 300;
+  margin:0;
+  padding:0;
+  line-height: 1.2;
+}
+
+.home .home-content .block .webpage {
+  padding-top: 3vh;
+}
+
+.home .home-content .block .webpage a{
+  padding-right: 2vw;
+  color: #fff;
+  font-size:25px;
+  font-weight: 300;
+}

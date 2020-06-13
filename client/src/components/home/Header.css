@@ -5,6 +5,10 @@
   --text-grey: #364C62;
   --text-light: #F5F5F5;
 
+  --yellowish: #fdb94e;
+  --light-dark: #525252;
+  --medium-Dark: #414141;
+  --dark: #313131;
   --baby-blue-eyes: #b0d7ff;
   --dark-gunmetal: #2d3142;
   --silver: #adacb5;
@@ -26,38 +30,29 @@ main .site-title{
 
 main .site-title .avatar{
   margin-top:10rem;
-  background-color: black;
+  background:transparent;
   width:21rem;
   height: 23rem;
   padding:2rem 0 1rem 0;
   text-align:center;
   color: var(--text-light);
-  border-radius:2%;
   cursor: pointer;
 }
 
-main .site-title .avatar:hover{
-  transition: 1s ease-in-out;
-  margin-top:10rem;
-  background:transparent;
-  width:16rem;
-  height: 21.2rem;
-  padding:2rem;
-  text-align:center;
-  color: var(--text-light);
-  border-radius:5%;
-}
-
 main .site-title .site-content{
-  padding:0.5 1rem;
+  padding:1rem;
   display:block;
   height: auto;
 }
+
 
 main .site-title h1, h3{
   margin:.3rem;
 }
 main .site-title .typed{
+  background-color: black;
+  border-radius: 10%;
+  padding: 1rem;
   color: #fdb94e;
 }
 
@@ -75,8 +70,7 @@ main .site-title .typed{
 
   main .site-title .avatar{
     margin-top:7rem;
-    background-color: black;
-    width:13rem;
+    width:19rem;
     height: 23rem;
     padding:1.8rem;
     text-align:center;
@@ -85,7 +79,7 @@ main .site-title .typed{
     cursor: pointer;
   }
   main .site-title h1, h3{
-    font-size:1.1rem;
+    font-size:1.3rem;
     margin:.3rem;
   }
   .ava {

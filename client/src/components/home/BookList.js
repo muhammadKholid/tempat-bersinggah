@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faStar, faBookDead } from '@fortawesome/free-solid-svg-icons';
+import { faBookDead } from '@fortawesome/free-solid-svg-icons';
 
 import './Main.css';
 

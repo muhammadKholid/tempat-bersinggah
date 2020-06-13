@@ -1,0 +1,112 @@
+/*-------------------- font ---------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/*-------------------- global css ---------------------*/
+
+
+:root{
+  --yellowish: #fdbd10;
+}
+
+
+/*---------x----------- global css ----------x-----------*/
+.App{
+  margin:0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home{
+  min-height:100vh;
+  background-image: url('../../assets/OCT_5183-02.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 5vh;
+}
+
+.home .navigation{
+  margin-left: 1vw;
+  width: 4vw;
+  min-height: 3vh;
+  padding: .7rem;
+  cursor: pointer;
+}
+
+.home .navigation .btn-sign{
+  color: white;
+  padding-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+  transition: ease 0.3s;
+  right: 0;
+}
+.home .navigation .btn-sign:hover{
+  transform: translateX(-2vw);
+}
+
+.home .full-screen{
+  margin: 0 7vw;
+  min-height: 100vh;
+}
+
+.home .home-content{
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .home-content .block{
+  max-width: 75%;
+  margin-top: 10vh;
+  padding-left: 3vw;
+  border-left: 5px solid #fff;
+  position: relative;
+  animation: textBlock 3s 1;
+}
+
+@keyframes textBlock {
+  0%{
+    letter-spacing: .1rem;
+    opacity: 0;
+    transform: translateY(-10vh);
+  }
+}
+
+.home .home-content .block h6{
+  color: #fff;
+  font-size:21px;
+  font-weight: 500;
+  margin:0;
+  padding:0;
+  line-height: 1.2;
+  opacity: 1;
+}
+
+.home .home-content .block h1{
+  color: #fff;
+  font-size:60px;
+  font-weight: 700;
+  margin:0;
+  padding:0;
+  line-height: 1.2;
+}
+.home .home-content .block h3{
+  color: #fff;
+  font-size:40px;
+  font-weight: 300;
+  margin:0;
+  padding:0;
+  line-height: 1.2;
+}
+
+.home .home-content .block .webpage {
+  padding-top: 4vh;
+}
+
+.home .home-content .block .webpage a{
+  padding: 0 .5rem 0 .2rem;
+  color: #fff;
+  font-size:16px;
+  font-weight: 300;
+}

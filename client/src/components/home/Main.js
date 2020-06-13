@@ -6,7 +6,7 @@ import React from 'react';
 import './Main.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faStar, faBookDead } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane, faStar } from '@fortawesome/free-solid-svg-icons';
 import BumiManusia from './contents/bumi-manusia';
 import TuhanIzinkan from './contents/tuhan-izinkan';
 import BookList from './BookList';
@@ -15,17 +15,19 @@ export default function Main() {
   return (
     <section className="container">
       <div className="site-content">
-        <div className="posts">
-          <h1>Book's Review</h1>
-          <br />
-          <BumiManusia />
-          <hr></hr>
-          <br />
-          <br />
-          <TuhanIzinkan />
-          <hr></hr>
-          <br />
-          <br />
+        <div className="content-site">
+          <div className="posts">
+            <h1>Book's Review</h1>
+            <br />
+            <BumiManusia />
+            <hr></hr>
+            <br />
+            <br />
+            <TuhanIzinkan />
+            <hr></hr>
+            <br />
+            <br />
+          </div>
         </div>
 
         <aside className="sidebar">

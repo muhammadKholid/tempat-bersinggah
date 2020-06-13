@@ -6,6 +6,10 @@
   --text-grey: #364C62;
   --text-dark: black;
 
+  --yellowish: #fdb94e;
+  --light-dark: #525252;
+  --medium-Dark: #414141;
+  --dark: #313131;
   --baby-blue-eyes: #b0d7ff;
   --dark-gunmetal: #2d3142;
   --silver: #adacb5;
@@ -78,11 +82,11 @@ ul{
 }
 
 .nav .nav-items .nav-link:hover{
-  background-color: var(--dark-gunmetal);
+  background-color: var(--medium-Dark);
 }
 
 .nav .nav-items .nav-link:hover p{
-  color: var(--light-grey);
+  color: var(--yellowish);
 }
 
 .brand{
@@ -95,9 +99,10 @@ ul{
   width: 1.6rem;
   height: 1.6rem;
   padding: 0 0.6rem;
+  transition: 0.2s;
 }
 .nav .social .icon:hover{
-  color: var(--silver);
+  color: var(--light-dark);
   width: 1.8rem;
   height: 1.8rem;
 }
