@@ -1,4 +1,6 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // import Slider from 'react-slick';
 
 // import { Link } from 'react-router-dom';
@@ -11,6 +13,9 @@ import BumiManusia from './contents/bumi-manusia';
 import TuhanIzinkan from './contents/tuhan-izinkan';
 import BookList from './BookList';
 
+AOS.init({
+  duration: 2000,
+});
 export default function Main() {
   return (
     <section className="container">
@@ -30,7 +35,7 @@ export default function Main() {
           </div>
         </div>
 
-        <aside className="sidebar">
+        <aside className="sidebar" data-aos="fade-left">
           <div className="projects">
             <h1>
               <FontAwesomeIcon icon={faPaperPlane} />

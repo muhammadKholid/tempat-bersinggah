@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
@@ -40,9 +42,18 @@ export default function Navbar() {
       setToggleNav(true);
     }
   }
+  const variant = {
+    visible: { opacity: 1, y: [-200, 0] },
+    hidden: { opacity: 1 },
+  };
 
   return (
-    <nav className={toggleNav ? 'nav1' : 'nav'}>
+    <motion.nav
+      initial="hidden"
+      animate="visible"
+      transition={{ ease: 'easeInOut', duration: 2 }}
+      variants={variant}
+      className={toggleNav ? 'nav1' : 'nav'}>
       <div className="nav-menu flex-row">
         <div className="nav-brand">
           <a href="/">
@@ -69,11 +80,11 @@ export default function Navbar() {
             <li className="nav-link">
               <p onClick={() => goDown()}>About me</p>
             </li>
-            <li className="nav-link">
-              <Link to="/resume">
-                <p>My Resume</p>
-              </Link>
-            </li>
+            {/* <li className="nav-link"> */}
+            {/*   <Link to="/resume"> */}
+            {/*     <p>My Resume</p> */}
+            {/*   </Link> */}
+            {/* </li> */}
           </ul>
         </div>
 
@@ -92,6 +103,6 @@ export default function Navbar() {
           </a>
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }

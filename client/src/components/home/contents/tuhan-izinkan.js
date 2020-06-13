@@ -1,7 +1,12 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // import ReactMarkdown from 'react-markdown';
 import '../Main.css';
 
+AOS.init({
+  duration: 2000,
+});
 export default function tuhanIzinkan() {
   // const markdown = `
   // ~~~~
@@ -11,7 +16,7 @@ export default function tuhanIzinkan() {
   // ~~~~
   // `;
   return (
-    <div className="post-content">
+    <div className="post-content" data-aos="fade-up">
       <div className="post-image flex-row">
         <div>
           <img

@@ -1,8 +1,9 @@
 import React from 'react';
 import Typed from 'react-typed';
+import { motion } from 'framer-motion';
 import './Header.css';
 
-import Ava from '../../assets/OCT_5183_edited.jpeg';
+import Ava from '../../assets/IMG_20200613_140854_544_compress29.jpg';
 
 const textLines = [
   `Hello Stranger!`,
@@ -14,13 +15,34 @@ const textLines = [
   `and I like making up random rhymes.`,
   `Welcome to my page and have a nice day :)`,
 ];
-
 export default function Header() {
+  const variant = {
+    visible: { opacity: 1, y: [200, 0] },
+    hidden: { opacity: 0 },
+  };
   return (
     <main>
-      <section className="site-title">
+      <motion.section
+        initial="hidden"
+        animate="visible"
+        transition={{ ease: 'easeInOut', duration: 2 }}
+        variants={variant}
+        className="site-title">
         <div className="avatar">
-          <img src={Ava} alt="almasfikri" className="ava" />
+          <motion.img
+            animate={{ scale: [0.5, 1], rotate: -360 }}
+            transition={{ duration: 2 }}
+            drag
+            dragConstraints={{
+              top: -50,
+              left: -50,
+              right: 50,
+              bottom: 50,
+            }}
+            src={Ava}
+            alt="almasfikri"
+            className="ava"
+          />
           <div className="site-content">
             <h1>Muhammad Kholid</h1>
             <div className="typed" style={{ fontSize: 18, marginTop: '1rem' }}>
@@ -28,7 +50,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     </main>
   );
 }

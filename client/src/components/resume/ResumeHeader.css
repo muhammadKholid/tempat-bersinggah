@@ -23,6 +23,14 @@
   background-position: center;
   background-attachment: fixed;
   padding: 5vh;
+  animation: home 2s 1;
+}
+
+@keyframes home{
+  0%{
+    transform: translateY(10vh);
+    opacity: 0;
+  }
 }
 
 .home .navigation{

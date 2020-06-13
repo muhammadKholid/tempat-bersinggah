@@ -1,9 +1,14 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../Main.css';
 
+AOS.init({
+  duration: 2000,
+});
 export default function bumiManusia() {
   return (
-    <div className="post-content">
+    <div className="post-content" data-aos="fade-up">
       <div className="post-image flex-row">
         <div>
           <img
