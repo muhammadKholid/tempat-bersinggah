@@ -50,7 +50,7 @@ export default function Footer() {
   }
 
   return (
-    <div className="footer" data-aos="zoom-in">
+    <div className="footer" data-aos="fade-up">
       <Particles
         style={{ position: 'absolute' }}
         params={{
@@ -73,7 +73,7 @@ export default function Footer() {
         }}
       />
       <div className="container flex-row">
-        <div className="aboutMe" data-aos="fade-right">
+        <div className="aboutMe" data-aos="fade-up">
           <h2>About Me</h2>
           <p>
             Tempat Bersinggah is a place where I can express my opinions and thoughts. I'll be
@@ -81,7 +81,7 @@ export default function Footer() {
             kidding). And also you can read review of a book that I've red. Thanks for visiting.{' '}
           </p>
         </div>
-        <div className="newsLetter" data-aos="fade-down">
+        <div className="newsLetter" data-aos="fade-up">
           <h2>NewsLetter</h2>
           <p>I have a bunch of e-books, ask me if you are looking for something.</p>
           <div className="form-element">
@@ -108,7 +108,7 @@ export default function Footer() {
             </span>
           </div>
         </div>
-        <div className="follow" data-aos="fade-left">
+        <div className="follow" data-aos="fade-up">
           <h2>Do you like my page? </h2>
           <p>
             {' '}

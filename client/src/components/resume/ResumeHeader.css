@@ -6,6 +6,10 @@
 
 
 :root{
+
+  --light-dark: #525252;
+  --medium-Dark: #414141;
+  --dark: #313131;
   --yellowish: #fdbd10;
 }
 
@@ -110,11 +114,33 @@
 
 .home .home-content .block .webpage {
   padding-top: 4vh;
+  margin-bottom: 1vh;
 }
 
 .home .home-content .block .webpage a{
-  padding: 0 .5rem 0 .2rem;
+  padding: 1rem;
   color: #fff;
   font-size:16px;
   font-weight: 300;
+  position: relative;
+}
+
+.home .home-content .block .webpage a::before{
+  content: "";
+  height: 4vh;
+  background-color: var(--dark);
+  border-bottom: 1px solid #fff;
+  opacity: 0.3;
+  position: absolute;
+  width: 0%;
+  right: 0px;
+  transition: all 1s ease;
+}
+.home .home-content .block .webpage a:hover::before{
+  width: 100%;
+  left: 0;
+}
+
+.home .home-content .block .webpage a:hover{
+  color: var(--yellowish);
 }

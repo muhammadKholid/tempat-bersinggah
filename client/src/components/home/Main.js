@@ -20,7 +20,7 @@ export default function Main() {
   return (
     <section className="container">
       <div className="site-content">
-        <div className="content-site">
+        <div className="content-site" data-aos="fade-up">
           <div className="posts">
             <h1>Book's Review</h1>
             <br />
@@ -35,7 +35,7 @@ export default function Main() {
           </div>
         </div>
 
-        <aside className="sidebar" data-aos="fade-left">
+        <aside className="sidebar" data-aos="fade-up">
           <div className="projects">
             <h1>
               <FontAwesomeIcon icon={faPaperPlane} />

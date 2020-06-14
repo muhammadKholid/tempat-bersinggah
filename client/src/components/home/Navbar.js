@@ -36,10 +36,10 @@ export default function Navbar() {
   }
 
   function changeVal() {
-    if (toggleNav) {
-      setToggleNav(false);
-    } else {
+    if (!toggleNav) {
       setToggleNav(true);
+    } else {
+      setToggleNav(false);
     }
   }
   const variant = {

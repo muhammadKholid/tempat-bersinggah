@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-// import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import './ResumeHeader.css';
 
@@ -27,15 +26,6 @@ export default function ResumeHeader() {
                   <FontAwesomeIcon icon={faFileDownload} />
                   &nbsp;&nbsp;&nbsp;DOWNLOAD CV
                 </a>
-                {/* <a href="https://tempat-bersinggah.firebaseapp.com/"> */}
-                {/*   <FontAwesomeIcon icon={faGlobeAsia} /> */}
-                {/* </a> */}
-                {/* <a href="https://github.com/muhammadKholid/"> */}
-                {/*   <FontAwesomeIcon icon={faGithub} className="icon" /> */}
-                {/* </a> */}
-                {/* <a href="https://www.linkedin.com/in/muhammad-kholid-a57a051a9/"> */}
-                {/*   <FontAwesomeIcon icon={faLinkedin} className="icon" /> */}
-                {/* </a> */}
               </div>
             </div>
           </div>
