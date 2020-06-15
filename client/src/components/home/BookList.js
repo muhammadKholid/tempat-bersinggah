@@ -50,7 +50,7 @@ const books = [
     image: 'https://images.gr-assets.com/books/1383884931l/18759843.jpg',
   },
   {
-    book: 'Seni Mencintai Diri Sendir',
+    book: 'Seni Mencintai Diri Sendiri',
     image:
       'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462896335l/30157478._SX318_.jpg',
   },
@@ -207,7 +207,7 @@ const books = [
       'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421908318l/24634140.jpg',
   },
   {
-    book: ' Ayah',
+    book: 'Ayah',
     image:
       'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431005462l/25498974.jpg',
   },

@@ -75,6 +75,18 @@ export default function Main() {
               </p>
               <p>- Ramy, 2019.</p>
             </div>
+            <div className="projects-thoughts">
+              <p>
+                <FontAwesomeIcon icon={faStar} />
+                &nbsp;&nbsp;June 15, 2020
+              </p>
+              <p>
+                "Tak usah kalian menyesali ataupun membanggakan yang sudah-sudah. Itulah kenapa
+                dirukun iman yang ke-5 kita harus mengimani Qodho dan Qodar Allah bahwa semuanya
+                sudah tertulis 40 tahun sebelum Nabiyuallah Adam tercipta."
+              </p>
+              <p> - Gus Baha. Pengajian di Masji Sirothol Mustaqiem Korea Selatan. - </p>
+            </div>
             <hr />
             <BookList />
           </div>

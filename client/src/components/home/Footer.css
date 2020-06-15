@@ -103,16 +103,14 @@
 /* setiap layar mengecil menjadi 640 px, */
 @media only screen and (max-width: 640px){
 
-.footer .container{
-  display: grid;
-  grid-template-columns: 1fr;
-}
+  .footer .container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-.footer .rights .text-grey{
-  font-size:0.8rem;
-  color: lightgrey;
-  font-family: Slabo;
-}
-
-
+  .footer .rights .text-grey{
+    font-size:0.8rem;
+    color: lightgrey;
+    font-family: Slabo;
+  }
 }

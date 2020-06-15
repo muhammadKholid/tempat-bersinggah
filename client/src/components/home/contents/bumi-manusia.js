@@ -10,7 +10,7 @@ export default function bumiManusia() {
   return (
     <div className="post-content" data-aos="fade-up">
       <div className="post-image flex-row">
-        <div>
+        <div className="image-frame">
           <img
             src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565658920l/1398034._SY475_.jpg"
             alt="kota tua"
@@ -39,12 +39,12 @@ export default function bumiManusia() {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dulu waktu kuliah, saya
           pernah mengikuti seminar tentang sastra. Saya lupa apa nama seminarnya dan pengisi
           acaranya karena sudah 3 tahun yang lalu. Ketika itu si pengisi acara menanyakan ke para
-          audiens apakah mengenal sastrawan indonesia bernama Pramoedya Ananta Toer?. Pada waktu itu
+          audiens apakah mengenal sastrawan Indonesia bernama Pramoedya Ananta Toer?. Pada waktu itu
           saya tidak mengenal siapa orang tersebut. Entah berselang 1 tahun kedepan, teman saya
           bercerita sedikit tentang buku bumi manusia ini. Dengan cara dia menceritakkan isi buku
           ini sangat menarik. "Percintaan yang penuh politik nan tragis", dia menceritakan kepadaku.
-          "boleh lah aku pinjam" aku menyahut. Karena teman saya in sangat jarang keliatan akan
-          kesibukan kerjanya, akhirnya saya memutuskan untuk membeli bukunya yang versi bekas di jl.
+          "boleh lah aku pinjam" aku menyahut. Karena teman saya ini sangat jarang keliatan akan
+          kesibukan kerjanya, akhirnya saya memutuskan untuk membeli bukunya yang versi bekas di Jl.
           Semarang. Dan akhirnya sayapun membaca buku tersebut.
         </p>
         <p>
@@ -56,7 +56,7 @@ export default function bumiManusia() {
           remaja) dengan salah satu permasalahan yang terjadi di zaman penjajahan kala itu yang
           nantinya akan menjadi buku petunjuk bagaimana perpolitikan Indonesia ini terbentuk(Tapi
           itu nanti di seri tetra buru berikutnya). Percintaannya pun sangat tragis karena sang
-          pemeran utama, Minke, mencintai seorang anak Nyai, Nyai Ontosoroh(Nyai adalah sebutan bagi
+          pemeran utama, Minke, mencintai seorang anak nyai, Nyai Ontosoroh(Nyai adalah sebutan bagi
           perempuan simpanan pembesar belanda kala itu. Dan dipandang sebelah mata oleh masyarakat
           sekitar meskipun secara ekonomi lebih baik daripada rakyat yang memandang sebelah mata
           tersebut.). Nama gadis ini adalah Annelis. Dia tergambarkan gadis yang sangat sempurna
@@ -65,7 +65,7 @@ export default function bumiManusia() {
         </p>
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meraka, Minke dan Annelis
-          sempat menikah, tapi karena perbedaan budaya antara Belanda dan Pribumi(dinovel status
+          sempat menikah, tapi karena perbedaan budaya antara Belanda dan Pribumi(dinovel, status
           agama Minke adalah islam, maka pernikahan mereka dilakukan secara hukum islam), pernikahan
           mereka menjadi kontroversi di Surabaya. Hukum di Belanda meyakini pernikahan dini adalah
           suatu tindakan tidak pantas, sedangkan Pribumi menganggap pernikahan itu sah secara hukum
@@ -80,13 +80,13 @@ export default function bumiManusia() {
           kekeyaan yang ditangani oleh Nyai Ontosoroh pun harus dikembalikan kepada keluarga besar
           Mellema di belanda(padahal Ayahnya tak menangani sama sekali. Nanti akan diceritakan
           diseri kedua kisah bagaimana Nyai Ontosoroh bisa menjadi seorang pribumi nan berstatuskan
-          Nyai bisa memiliki kekayaan sebesar ini).
+          Nyai dan bisa memiliki kekayaan sebesar ini).
         </p>
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Itulah kisah cinta Minke dan
           Annelis di Bumi Manusia ini. Sebenarnya ada kisah persahabatannya juga di Bumi Manusia
           ini. Tapi, biarlah kalian yang menelusurinya sendiri dengan membacanya. Tunggu review seri
-          berikutnya yaaa, Thanks for visitiing :)
+          berikutnya yaaa, Thanks for visiting :)
         </p>
         {/* <Link to="/review"> */}
         {/*   <button> */}

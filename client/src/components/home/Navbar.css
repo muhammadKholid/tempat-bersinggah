@@ -35,7 +35,9 @@ ul{
   background : #F5F5F5;
   color: var(--text-dark);
   padding: 0 2.3rem 0 2rem;
-  min-height: 14vh;
+  height: 22vh;
+  min-height: 24vh;
+  position: relative;
   overflow: hidden;
   transition:height 1s ease-in-out;
 }
@@ -60,7 +62,7 @@ ul{
 
   display:flex;
   justify-content:flex-end;
-  padding: 2.5rem 0;
+  padding: 3.5rem 1rem;
   font-size:1.5rem;
   color: var(--text-dark);
 }
@@ -117,14 +119,19 @@ ul{
   background : #F5F5F5;
   color: var(--text-grey);
   padding: 0 2.3rem 0 2rem;
-  height: 40rem;
+  height: 29rem;
   min-height: 20vh;
+  position: relative;
   overflow: hidden;
   transition:height 1s ease-in-out;
 }
 
 .nav1 .nav-menu{
   justify-content:space-between;
+}
+
+.nav1 .nav-menu .nav-brand{
+  margin-top: 0.7rem;
 }
 
 .nav1 .toggle-collapse{
@@ -137,7 +144,7 @@ ul{
 .nav1 .toggle-collapse .toggle-icons{
   display:flex;
   justify-content:flex-end;
-  padding: 2.5rem 0;
+  padding: 3.5rem 1rem;
   font-size:1.5rem;
   color: var(--text-grey);
 }
@@ -178,8 +185,8 @@ ul{
 }
 
 /*-------------- media query 750----------*/
-/* setiap layar mengecil menjadi 750 px, link navigsi akan turun kebawah(menjadi tak terlihat), toggle navigasi muncul*/
-@media only screen and (max-width: 750px){
+/* setiap layar mengecil menjadi 640 px, link navigsi akan turun kebawah(menjadi tak terlihat), toggle navigasi muncul*/
+@media only screen and (max-width: 640px){
   .nav .nav-menu , .nav .nav-items {
     flex-direction:column;
   }

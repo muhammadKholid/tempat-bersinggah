@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobeAsia } from '@fortawesome/free-solid-svg-icons';
+import { faGlobeAsia, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './ResumeAboutMe.css';
 import image from '../../assets/DSC07865-03_compress57.jpg';
@@ -21,6 +21,7 @@ export default function AboutMe() {
             <p className="small">Informations About Me</p>
           </div>
         </div>
+
         <div className="row">
           <div className="about-content">
             <div className="row">
@@ -69,6 +70,36 @@ export default function AboutMe() {
                   <a href="https://www.linkedin.com/in/muhammad-kholid-a57a051a9/">
                     <FontAwesomeIcon icon={faLinkedin} className="icon" />
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="education">
+            <h2 className="title">My Education</h2>
+            <div className="education-content">
+              <div className="timeline box-shadow">
+                {/* timeline */}
+                <div className="timeline-item">
+                  <div className="dot"></div>
+                  <h6 className="timeline-date">
+                    <FontAwesomeIcon icon={faCalendarAlt} />
+                    &nbsp;&nbsp;January - June, 2020
+                  </h6>
+                  <h4 className="timeline-title">Hacktiv8 Indonesia</h4>
+                  <p className="timeline-text">Fullstack Javascript web development</p>
+                </div>
+                {/* timeline */}
+                <div className="timeline-item">
+                  <div className="dot"></div>
+                  <h6 className="timeline-date">
+                    <FontAwesomeIcon icon={faCalendarAlt} />
+                    &nbsp;&nbsp;2015 - 2019
+                  </h6>
+                  <h4 className="timeline-title">University of 17 Agustus 1945 Surabaya</h4>
+                  <p className="timeline-text">English Literature</p>
                 </div>
               </div>
             </div>
