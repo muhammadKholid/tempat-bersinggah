@@ -50,7 +50,7 @@ export default function Footer() {
   }
 
   return (
-    <div className="footer" data-aos="fade-up">
+    <div className="footer">
       <Particles
         style={{ position: 'absolute' }}
         params={{

@@ -9,6 +9,7 @@
   --light-dark: #525252;
   --medium-Dark: #414141;
   --dark: #313131;
+  --very-dark: #232323;
   --baby-blue-eyes: #b0d7ff;
   --dark-gunmetal: #2d3142;
   --silver: #adacb5;
@@ -51,7 +52,7 @@ main .site-title h1, h3{
   margin:.3rem;
 }
 main .site-title .typed{
-  background-color: black;
+  background-color: var(--dark);
   border-radius: 10%;
   padding: 1rem;
   color: #fdb94e;

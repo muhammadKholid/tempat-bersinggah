@@ -8,34 +8,32 @@
 
 
 :root{
-  --text-grey: #364C62;
-  --text-dark: black;
-
   --yellowish: #fdb94e;
   --light-dark: #525252;
   --medium-Dark: #414141;
-  --dark: #313131;
-  --baby-blue-eyes: #b0d7ff;
-  --dark-gunmetal: #2d3142;
-  --silver: #adacb5;
-  --light-grey: #d8d5db;
-  --lavender: #eae8ff;
+  --dark: #3d3d3d;
+  --very-dark: #232323;
 }
 
 .post-info {
   margin-left: 1rem;
 }
 
+.review{
+  background-color: var(--very-dark);
+}
 .container .site-content{
   display:grid;
   grid-template-columns: 70% 30%;
   font-family: Prata;
 }
 .container .site-content .content-site{
+  color: var(--yellowish);
   margin: 2rem;
 }
 
 .site-content .post-content > .post-image .image-frame{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   width: 255px;
   height: 380px;
   overflow: hidden;
@@ -68,12 +66,13 @@
   font-size:2rem;
   font-family: Prata;
   font-stretch: semi-expanded;
+  color: var(--yellowish);
 }
 .site-content .post-content > .post-image .book-description p{
   padding: .5rem 0;
   font-size:1.2rem;
   font-family: Slabo;
-  color: var(--text-grey);
+  color: var(--light-grey);
 }
 
 
@@ -81,11 +80,12 @@
   font-size:2rem;
   font-family: Prata;
   font-stretch: semi-expanded;
+  color: var(--yellowish);
 } 
 .site-content .post-title p{
   font-size:1.2rem;
   font-family: Slabo;
-  color: var(--text-grey);
+  color: var(--light-grey);
 } 
 
 button{
@@ -100,21 +100,28 @@ button{
 
 .site-content > .sidebar{ 
   padding: .7rem;
-  background-color: var(--light-dark);
+  background-color: var(--dark);
+  color: var(--yellowish);
 }
 
  .projects{ 
   padding: 1rem;
 }
 
- .projects-list{
+ .projects .projects-thoughts p{ 
+   color: var(--light-grey);
+}
+
+.projects-list{
   padding-left: 0rem;
   font-family: Vollkorn;
   font-size:1.2rem;
 }
 
- .projects-list .list-item{
-  padding: 0.3rem 1rem;
+.projects-list .list-item a{
+  font-size: 1.1rem;
+  color: var(--light-grey);
+  padding: 0.2rem 1rem;
 }
 
 
@@ -149,7 +156,7 @@ button{
 }
 
 .site-content .post-content > .post-image .book-description{
-  margin: 1rem 0 0 0;
+  margin: 1.5rem 0 0 0;
   width: 100%;
   height:auto;
 }
@@ -163,7 +170,7 @@ button{
   padding: .3rem 0;
   font-size: 1rem;
   font-family: Slabo;
-  color: var(--text-grey);
+  color: var(--light-grey);
 }
 .site-content .post-title h3{
   font-size: 1.7rem;
@@ -173,7 +180,7 @@ button{
 .site-content .post-title p{
   font-size: 1rem;
   font-family: Slabo;
-  color: var(--text-grey);
+  color: var(--light-grey);
 } 
  .projects-list {
   padding: 0.3rem .5rem;

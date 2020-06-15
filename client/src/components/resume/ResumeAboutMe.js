@@ -22,7 +22,7 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row" data-aos="fade-up">
           <div className="about-content">
             <div className="row">
               <div className="img">
@@ -76,7 +76,7 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row" data-aos="fade-up">
           <div className="education">
             <h2 className="title">My Education</h2>
             <div className="education-content">

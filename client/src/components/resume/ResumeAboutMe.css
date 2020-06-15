@@ -4,6 +4,7 @@
   --light-dark: #525252;
   --medium-Dark: #414141;
   --dark: #313131;
+  --very-dark: #232323;
   --yellowish: #fdbd10;
   --white: #fff;
 }
@@ -11,7 +12,7 @@
 .aboutme{
   margin:0;
   min-height: 70vh;
-  background-color: var(--medium-Dark);
+  background-color: var(--very-dark);
   color: var(--white);
   padding: 12vh 10vw;
 }

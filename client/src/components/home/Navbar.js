@@ -7,7 +7,13 @@ import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+  faYoutube,
+  faGithub,
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 
 import TB from '../../assets/signature-tb.png';
 
@@ -100,6 +106,9 @@ export default function Navbar() {
           </a>
           <a href="https://www.instagram.com/tempatbersinggah">
             <FontAwesomeIcon icon={faInstagram} className="icon" />
+          </a>
+          <a href="https://www.youtube.com/channel/UCtRNUAqw3YTe2FFDcH7o68A/videos">
+            <FontAwesomeIcon icon={faYoutube} className="icon" />
           </a>
         </div>
       </div>

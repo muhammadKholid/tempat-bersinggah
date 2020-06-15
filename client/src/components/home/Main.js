@@ -18,7 +18,7 @@ AOS.init({
 });
 export default function Main() {
   return (
-    <section className="container">
+    <section className="container review">
       <div className="site-content">
         <div className="content-site" data-aos="fade-up">
           <div className="posts">
