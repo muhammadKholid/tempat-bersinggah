@@ -70,7 +70,8 @@ ul{
   justify-content:flex-end;
   padding: 3.5rem 1rem;
   font-size:1.5rem;
-  color: var(--light-grey);
+  /* color: var(--light-grey); */
+  color: var(--text-dark);
 }
 
 .nav .nav-items{
@@ -159,7 +160,8 @@ ul{
   justify-content:flex-end;
   padding: 3.5rem 1rem;
   font-size:1.5rem;
-  color: var(--light-grey);
+  /* color: var(--light-grey); */
+  color: var(--text-dark);
 }
 
 .nav1 .nav-items{
