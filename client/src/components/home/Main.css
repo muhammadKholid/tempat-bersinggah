@@ -88,13 +88,13 @@
   color: var(--light-grey);
 } 
 
-button{
-  background: var(--silver);
-  color: var(--text-dark);
-  padding: 1rem;
-  border-radius:1.5rem;
-  font-size: 0.9rem;
-}
+/* button{ */
+/*   background: var(--silver); */
+/*   color: var(--text-dark); */
+/*   padding: 1rem; */
+/*   border-radius:1.5rem; */
+/*   font-size: 0.9rem; */
+/* } */
 
 /*--------------side bar -------------------*/
 

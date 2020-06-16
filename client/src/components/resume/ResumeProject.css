@@ -1,0 +1,135 @@
+:root{
+
+  --light-grey: #d5d5d5;
+  --light-dark: #525252;
+  --medium-Dark: #414141;
+  --dark: #313131;
+  --very-dark: #232323;
+  --yellowish: #fdbd10;
+  --white: #fff;
+}
+
+.portofolio{
+  margin:0;
+  min-height: 70vh;
+  background-color: var(--very-dark);
+  color: var(--white);
+  padding: 12vh 10vw;
+}
+.portofolio .portofolio-title{
+  margin-bottom: 6vh;
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.portofolio .row .portofolio-title h1{
+  margin:0;
+  display: inline-block;
+  font-size:2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--yellowish);
+}
+
+
+.portofolio .row  .portofolio-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.portofolio .row  .portofolio-box .box-item{
+
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-bottom: 2.5rem ;
+  background-color: var(--light-dark);
+  width: 45vh;
+  height: 45vh;
+  position: relative;
+  border-radius: 12px;
+}
+
+.portofolio .row  .portofolio-box .box-item img{
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.portofolio .row  .portofolio-box .box-item .box-title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.portofolio .row  .portofolio-box .box-item:hover .box-title{
+  display: flex;
+  border-radius: 12px;
+}
+
+.portofolio .row  .portofolio-box .box-item .box-title h4{
+  height: 1rem;
+  width: auto;
+  font-size: 1.3rem;
+  font-weight: 700;
+  animation: galeryText .8s ease;
+  cursor: pointer;
+}
+
+@keyframes galeryText {
+  0%{
+    transform: translateY(-20px); opacity: 0;
+  }
+  100%{
+    transform: translateY(0); opacity: 1;
+  }
+}
+
+/*Responsive website for mobile*/
+
+@media only screen and (max-width: 640px){
+
+.portofolio .portofolio-title{
+  margin-bottom: 9vh;
+}
+  .portofolio .row  .portofolio-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .portofolio .row .portofolio-title h1{
+    margin:0;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--yellowish);
+  }
+  .portofolio .row  .portofolio-box .box-item{
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-bottom: 1rem ;
+    background-color: var(--light-dark);
+    width: 45vh;
+    height: 45vh;
+    position: relative;
+  }
+  .portofolio .row  .portofolio-box .box-item .box-title h4{
+    height: 1rem;
+    width: auto;
+    font-size: 1rem;
+    font-weight: 600;
+    animation: galeryText .8s ease;
+  }
+}
+
+

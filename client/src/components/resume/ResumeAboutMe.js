@@ -90,6 +90,10 @@ export default function AboutMe() {
                   </h6>
                   <h4 className="timeline-title">Hacktiv8 Indonesia</h4>
                   <p className="timeline-text">Fullstack Javascript web development</p>
+                  <ul>
+                    <li>- Took classes on back-end, front-end, and mobile app.</li>
+                    <li>- Learned Database, either SQL and no-SQL and Git.</li>
+                  </ul>
                 </div>
                 {/* timeline */}
                 <div className="timeline-item">
@@ -100,6 +104,17 @@ export default function AboutMe() {
                   </h6>
                   <h4 className="timeline-title">University of 17 Agustus 1945 Surabaya</h4>
                   <p className="timeline-text">English Literature</p>
+                  <ul>
+                    <li>
+                      - My final thesis was about{' '}
+                      <a href="https://drive.google.com/file/d/15z6L7JVQW9VEJi6qtt2KnKjocZuX-puK/view?usp=sharing">
+                        <i>
+                          "RACISM AGAINST AFRO-AMERICAN PEOPLE IN ANGIE THOMAS’ THE HATE U GIVE"
+                        </i>
+                      </a>
+                      .
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

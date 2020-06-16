@@ -83,7 +83,7 @@ export default function Main() {
               <p>
                 "Tak usah kalian menyesali ataupun membanggakan yang sudah-sudah. Itulah kenapa
                 dirukun iman yang ke-5 kita harus mengimani Qodho dan Qodar Allah bahwa semuanya
-                sudah tertulis 40 tahun sebelum Nabiyuallah Adam tercipta."
+                sudah tertulis 40 tahun sebelum Nabiyullah Adam tercipta."
               </p>
               <p> - Gus Baha. Pengajian di Masji Sirothol Mustaqiem Korea Selatan. - </p>
             </div>

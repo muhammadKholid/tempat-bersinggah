@@ -148,64 +148,64 @@
 
 @media only screen and (max-width: 640px) {
 
-.home{
-  min-height:100vh;
-  background-image: url('../../assets/OCT_5183-02.jpeg');
-  background-size: cover;
-  background-position: right;
-  background-attachment: fixed;
-  padding: 3vh;
-  animation: home 2s 1;
-}
+  .home{
+    min-height:100vh;
+    background-image: url('../../assets/OCT_5183-02.jpeg');
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    padding: 3vh;
+    animation: home 2s 1;
+  }
 
-.home .navigation .btn-sign{
-  color: white;
-  padding-left: 1rem;
-  width: 2rem;
-  height: 2rem;
-  transition: ease 0.3s;
-  right: 0;
-}
-.home .home-content .block{
-  max-width: 75%;
-  margin-top: 5vh;
-  padding-left: 3vw;
-  border-left: 4px solid #fff;
-  position: relative;
-}
+  .home .navigation .btn-sign{
+    color: white;
+    padding-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    transition: ease 0.3s;
+    right: 0;
+  }
+  .home .home-content .block{
+    max-width: 75%;
+    margin-top: 5vh;
+    padding-left: 3vw;
+    border-left: 4px solid #fff;
+    position: relative;
+  }
 
-.home .home-content .block h6{
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin:0;
-  padding:0;
-  line-height: 1;
-  opacity: 1;
-}
+  .home .home-content .block h6{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin:0;
+    padding:0;
+    line-height: 1;
+    opacity: 1;
+  }
 
-.home .home-content .block h1{
-  color: #fff;
-  font-size: 3.2rem;
-  font-weight: 700;
-  margin:0;
-  padding:0;
-  line-height: 1;
-}
-.home .home-content .block h3{
-  color: #fff;
-  font-size: 2.3rem;
-  font-weight: 300;
-  margin:0;
-  padding:0;
-  line-height: 1;
-}
+  .home .home-content .block h1{
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin:0;
+    padding:0;
+    line-height: 1;
+  }
+  .home .home-content .block h3{
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 300;
+    margin:0;
+    padding:0;
+    line-height: 1;
+  }
 
-.home .home-content .block .webpage a{
-  padding: .5rem;
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: 300;
-  position: relative;
-}
+  .home .home-content .block .webpage a{
+    padding: .5rem;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 300;
+    position: relative;
+  }
 }
