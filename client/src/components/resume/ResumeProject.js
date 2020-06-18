@@ -41,7 +41,7 @@ export default function Project() {
               <img src={kanban} alt="kanban" />
               <div className="box-title">
                 <h4>
-                  <a href="https://my-new-project-1586483971529.firebaseapp.com/">Kanban</a>
+                  <a href="https://github.com/muhammadKholid/My-Kanban">Kanban</a>
                 </h4>
               </div>
             </div>
@@ -49,7 +49,9 @@ export default function Project() {
               <img src={cms} alt="cms" />
               <div className="box-title">
                 <h4>
-                  <a href="https://e-commerce-cms-kholid.firebaseapp.com">E-commerce CMS</a>
+                  <a href="https://github.com/muhammadKholid/CMS-admin-e-commerce">
+                    E-commerce CMS
+                  </a>
                 </h4>
               </div>
             </div>
@@ -57,7 +59,7 @@ export default function Project() {
               <img src={ecommerce} alt="ecommerce" />
               <div className="box-title">
                 <h4>
-                  <a href="https://last-project-phase-02.firebaseapp.com">E-commerce</a>
+                  <a href="https://github.com/muhammadKholid/Lapak-Online">E-commerce</a>
                 </h4>
               </div>
             </div>
