@@ -133,7 +133,7 @@ ul{
   /* background : #F5F5F5; */
   color: var(--text-grey);
   padding: 0 2.3rem 0 2rem;
-  height: 29rem;
+  height: 35rem;
   min-height: 20vh;
   position: relative;
   overflow: hidden;
@@ -166,7 +166,6 @@ ul{
   padding: 3.5rem 1rem;
   font-size:1.5rem;
   color: var(--light-grey);
-  /* color: var(--text-dark); */
 }
 .nav1 .toggle-collapse .toggle-icons:hover{
 
