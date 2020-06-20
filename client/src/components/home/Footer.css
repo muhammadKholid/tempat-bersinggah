@@ -47,6 +47,8 @@
 .footer .container p{
   color: lightgrey;
   font-family: Slabo;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .footer .newsLetter .form-element{

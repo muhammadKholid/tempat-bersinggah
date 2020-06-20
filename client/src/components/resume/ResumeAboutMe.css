@@ -105,6 +105,8 @@
   color: var(--light-grey);
   font-size: 1rem;
   margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .aboutme .row .about-content .text .detail-content{

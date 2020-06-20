@@ -66,7 +66,11 @@ export default function Project() {
             {/* <div className="box-item" data-aos="flip-up"> */}
             {/*   <img src={joke} alt="chuck-norris" /> */}
             {/*   <div className="box-title"> */}
-            {/*     <h4>Norris' Joke</h4> */}
+            {/*     <h4> */}
+            {/*       <a href="https://hire.hacktiv8.com/verify/fsjs/MuhammadKholid-20200604"> */}
+            {/*         E-commerce */}
+            {/*       </a> */}
+            {/*     </h4> */}
             {/*   </div> */}
             {/* </div> */}
             {/* <div className="box-item" data-aos="flip-up"> */}
