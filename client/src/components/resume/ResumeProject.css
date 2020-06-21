@@ -95,7 +95,7 @@
 
 /*Responsive website for mobile*/
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 740px){
 
 .portofolio .portofolio-title{
   margin-bottom: 9vh;
@@ -119,8 +119,8 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     margin-bottom: 1rem ;
     background-color: var(--light-dark);
-    width: 45vh;
-    height: 45vh;
+    width: 65vw;
+    height: 65vw;
     position: relative;
   }
   .portofolio .row  .portofolio-box .box-item .box-title h4{

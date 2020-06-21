@@ -111,9 +111,27 @@
     grid-template-columns: 1fr;
   }
 
+.footer .newsLetter .form-element input{
+  padding:.5rem .7rem;
+  border:none;
+  background:transparent;
+  color: lightgrey;
+  font-size:1rem;
+  width: 50vw;
+}
+.footer .movement{
+  background-color: var(--yellowish);
+  padding:.5rem;
+  width: 5vw;
+  height: 6vw;
+  position: absolute;
+  right: 6%;
+  top: 50%;
+}
+
   .footer .rights .text-grey{
     padding-bottom: 1rem;
-    font-size:0.8rem;
+    font-size: 3vw;
     color: lightgrey;
     font-family: Slabo;
   }

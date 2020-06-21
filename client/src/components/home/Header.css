@@ -72,22 +72,24 @@ main .site-title .typed{
 
   main .site-title .avatar{
     margin-top:7rem;
-    width:19rem;
-    height: 23rem;
+    width: 70vw;
+    height: 95vw;
     padding:1.8rem;
     text-align:center;
     color: var(--text-light);
     border-radius:2%;
     cursor: pointer;
   }
+
   main .site-title h1, h3{
-    font-size:1.3rem;
+    font-size: 6vw;
     margin:.3rem;
   }
+
   .ava {
     margin-bottom:1rem;
-    width: 10rem;
-    height: 10rem;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
     border: 3px solid #F5F5F5;
   }

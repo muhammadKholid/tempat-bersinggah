@@ -45,7 +45,7 @@ export default function Header() {
           />
           <div className="site-content">
             <h1>Muhammad Kholid</h1>
-            <div className="typed" style={{ fontSize: 18, marginTop: '1rem' }}>
+            <div className="typed" style={{ fontSize: 17, marginTop: '1rem' }}>
               <Typed strings={textLines} typeSpeed={80} loop={true} />
             </div>
           </div>

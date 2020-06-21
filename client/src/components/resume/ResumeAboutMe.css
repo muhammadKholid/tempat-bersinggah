@@ -164,6 +164,7 @@
 .aboutme .container .row .education h2, h4, p {
   margin: 0;
 }
+
 .aboutme .container .row .education h2 {
   font-size: 1.7rem;
   font-weight:600;
@@ -267,7 +268,7 @@
   .aboutme .row .about-content .text .detail-content p{
     color: var(--light-grey);
     max-width: 90%;
-    font-size: 1rem;
+    font-size: 3.5vw;
     margin : 1vh 0;
     padding: 1vh 0;
     border-bottom: 1px solid var(--dark);
@@ -286,7 +287,7 @@
     padding: 5vh 0 0 3vw;
   }
   .aboutme .row .about-content .text h4{
-    font-size: 1.5rem;
+    font-size: 6vw;
     font-weight:600;
     letter-spacing: 1px;
     margin: 0;
@@ -310,10 +311,18 @@
     left: 0;
   }
   .aboutme .row .about-content .text h5{
-    font-size: 1.1rem;
+    font-size: 4.5vw;
     font-weight:400;
     margin: 0 0 2vh 0;
   }
+
+.aboutme .row .about-content .text p{
+  color: var(--light-grey);
+  font-size: 3.5vw;
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
   .aboutme .container .row .education h2 {
     font-size: 1.6rem;
@@ -338,6 +347,30 @@
     width: .5rem;
     height: .5rem;
     border-radius: .2rem;
-    left: 17.3vw;
+    left: 17%;
   }
+
+.timeline-item  .timeline-date{
+  font-size: 3.5vw;
+  font-weight: 400;
+}
+.timeline-item  .timeline-title{
+  font-size: 5.5vw;
+}
+.timeline .timeline-item .timeline-text {
+  color: var(--medium-Dark);
+  font-size: 4.4vw;
+}
+
+.timeline .timeline-item ul {
+  margin: .3rem 0;
+  padding: 0 0 0 .8rem;
+}
+.timeline .timeline-item li {
+  font-size: 3vw;
+}
+.timeline .timeline-item li a{
+  color: var(--medium-Dark);
+  font-size: 3vw;
+}
 }
