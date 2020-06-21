@@ -114,6 +114,7 @@
    color: var(--light-grey);
   text-align: justify;
   text-justify: inter-word;
+  font-size: 1.3vw;
 }
 
 .projects-list{
@@ -166,30 +167,42 @@
 }
 
 .site-content .post-content > .post-image .book-description h2{
-  font-size: 1.6rem;
+  font-size: 7vw;
   font-family: Prata;
   font-stretch: semi-expanded;
 }
 .site-content .post-content > .post-image .book-description p{
   padding: .3rem 0;
-  font-size: 1.1rem;
+  font-size: 4.8vw;
   font-family: Slabo;
   color: var(--light-grey);
 }
 .site-content .post-title h3{
-  font-size: 1.7rem;
+  font-size: 6vw;
   font-family: Prata;
   font-stretch: semi-expanded;
 } 
 .site-content .post-title p{
-  font-size: 1.1rem;
+  font-size: 4.8vw;
   font-family: Slabo;
   color: var(--light-grey);
 } 
  .projects-list {
   padding: 0.3rem .5rem;
+  font-size: 4vw;
+}
+ .projects .projects-thoughts p{ 
+   color: var(--light-grey);
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 4vw;
 }
  .projects-list .list-item{
   padding: 0.3rem .5rem;
+}
+.projects-list .list-item a{
+  font-size: 4.1vw;
+  color: var(--light-grey);
+  padding: 0.2rem 1rem;
 }
 }
