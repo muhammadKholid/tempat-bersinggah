@@ -45,8 +45,8 @@
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   margin-bottom: 2.5rem ;
   background-color: var(--light-dark);
-  width: 45vh;
-  height: 45vh;
+  width: 25vw;
+  height: 25vw;
   position: relative;
   border-radius: 12px;
 }

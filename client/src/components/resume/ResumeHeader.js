@@ -22,7 +22,7 @@ export default function ResumeHeader() {
               <h1>MUHAMMAD KHOLID</h1>
               <h3>Web Developer</h3>
               <div className="webpage">
-                <a href="https://drive.google.com/file/d/1zlObuH4YiVnPvz8FZghpER5DRPTI_PS9/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1RBAKCtV8BXz7Oc12ui8njvzgNp27f5nP/view?usp=sharing">
                   <FontAwesomeIcon icon={faFileDownload} />
                   &nbsp;&nbsp;&nbsp;DOWNLOAD CV
                 </a>
