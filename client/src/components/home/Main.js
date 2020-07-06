@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faStar } from '@fortawesome/free-solid-svg-icons';
 import BumiManusia from './contents/bumi-manusia';
 import TuhanIzinkan from './contents/tuhan-izinkan';
+import Juli14 from './contents/juli4-2020';
 import BookList from './BookList';
 
 AOS.init({
@@ -29,6 +30,10 @@ export default function Main() {
             <br />
             <br />
             <TuhanIzinkan />
+            <hr></hr>
+            <br />
+            <br />
+            <Juli14 />
             <hr></hr>
             <br />
             <br />
