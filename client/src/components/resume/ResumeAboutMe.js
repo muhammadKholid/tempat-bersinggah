@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobeAsia, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './ResumeAboutMe.css';
-import image from '../../assets/DSC07865-03_compress57.jpg';
+import image from '../../assets/PicsArt_11-11-11.15.39.jpg';
 
 AOS.init({
   duration: 1500,
@@ -32,8 +32,12 @@ export default function AboutMe() {
                 <h4>
                   I'm <span>Muhammad Kholid</span>
                 </h4>
+                {/*<h5>*/}
+                {/*A <span>Fullstack Javascript</span> Web Developer based in <span>Indonesia</span>.*/}
+                {/*</h5>*/}
                 <h5>
-                  A <span>Fullstack Javascript</span> Web Developer based in <span>Indonesia</span>.
+                  An <span>Associated Software Developer</span> in{' '}
+                  <span>PT. AVO Innovation and Technology</span>
                 </h5>
                 <p>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Passionately write

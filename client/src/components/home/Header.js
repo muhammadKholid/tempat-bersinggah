@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 import { motion } from 'framer-motion';
 import './Header.css';
 
-import Ava from '../../assets/IMG_20200613_140854_544_compress29.jpg';
+import Ava from '../../assets/PicsArt_11-11-11.25.04.jpg';
 
 const textLines = [
   `Hello Stranger!`,
