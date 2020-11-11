@@ -17,7 +17,7 @@ export default function juli42020() {
           tempuh <i>bootcamp</i> di Hacktiv8. Aku memutuskan bersinggah ke Pekalongan sejenak untuk
           menjenguk sanak saudara. Pekalongan selalu menjadi rumah bagiku. karena semua keluarga
           besar mayoritas tinggal disini. Betapa ramainya suasana keluarga ketika lebaran tiba dan
-          semuanya pulang kampung kesini. Tapi akung, tahun ini keramaian itu sunyi senyap didunia
+          semuanya pulang kampung kesini. Tapi sayang, tahun ini keramaian itu sunyi senyap didunia
           nyata dan berpindah keramaian didunia maya. Dari situ, kosakata akan akibat positif
           teknologi bertambah.
         </p>

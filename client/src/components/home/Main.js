@@ -12,6 +12,8 @@ import { faPaperPlane, faStar } from '@fortawesome/free-solid-svg-icons';
 import BumiManusia from './contents/bumi-manusia';
 import TuhanIzinkan from './contents/tuhan-izinkan';
 import Juli14 from './contents/juli4-2020';
+import Padoel from './contents/padoel';
+
 import BookList from './BookList';
 
 AOS.init({
@@ -33,7 +35,11 @@ export default function Main() {
             <hr></hr>
             <br />
             <br />
-            <Juli14 />
+            {/* <Juli14 /> */}
+            {/*<hr></hr>*/}
+            {/*<br />*/}
+            {/*<br />*/}
+            <Padoel />
             <hr></hr>
             <br />
             <br />
