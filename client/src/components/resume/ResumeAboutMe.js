@@ -52,7 +52,7 @@ export default function AboutMe() {
                       Birthday: <span> &nbsp;4th June 1997</span>
                     </p>
                     <p>
-                      Address: <span> &nbsp;Jakarta, Indonesia</span>
+                      Address: <span> &nbsp;Sleman, DI Yogyakarta</span>
                     </p>
                   </div>
                   <div className="content2">
@@ -85,9 +85,10 @@ export default function AboutMe() {
             <h2 className="title">My Education</h2>
             <div className="education-content">
               <div className="timeline box-shadow">
-                {/* timeline */}
-                <div className="timeline-item">
+                {/* timeline 
                   <div className="dot"></div>
+                */}
+                <div className="timeline-item">
                   <h6 className="timeline-date">
                     <FontAwesomeIcon icon={faCalendarAlt} />
                     &nbsp;&nbsp;January - June, 2020
@@ -99,9 +100,10 @@ export default function AboutMe() {
                     <li>- Learned Database, either SQL and no-SQL and Git.</li>
                   </ul>
                 </div>
-                {/* timeline */}
-                <div className="timeline-item">
+                {/* timeline 
                   <div className="dot"></div>
+                  */}
+                <div className="timeline-item">
                   <h6 className="timeline-date">
                     <FontAwesomeIcon icon={faCalendarAlt} />
                     &nbsp;&nbsp;2015 - 2019

@@ -101,9 +101,11 @@ export default function Navbar() {
           <a href="https://www.linkedin.com/in/muhammad-kholid-a57a051a9/">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </a>
+          {/*
           <a href="https://twitter.com/tmptbersinggah">
             <FontAwesomeIcon icon={faTwitter} className="icon" />
           </a>
+            */}
           <a href="https://www.instagram.com/tempatbersinggah">
             <FontAwesomeIcon icon={faInstagram} className="icon" />
           </a>

@@ -14,7 +14,7 @@ import TuhanIzinkan from './contents/tuhan-izinkan';
 import Juli14 from './contents/juli4-2020';
 import Padoel from './contents/padoel';
 
-import BookList from './BookList';
+// import BookList from './BookList';
 
 AOS.init({
   duration: 2000,
@@ -63,6 +63,7 @@ export default function Main() {
                 you want. Contact me through my social media account.
               </p>
             </div>
+            {/* <Juli14 /> 
             <div className="projects-thoughts">
               <p>
                 <FontAwesomeIcon icon={faStar} />
@@ -98,8 +99,11 @@ export default function Main() {
               </p>
               <p> - Gus Baha. Pengajian di Masji Sirothol Mustaqiem Korea Selatan. - </p>
             </div>
+              */}
             <hr />
+            {/*
             <BookList />
+              */}
           </div>
         </aside>
       </div>

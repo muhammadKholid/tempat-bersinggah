@@ -81,6 +81,8 @@ export default function Footer() {
             kidding). And also you can read review of a book that I've red. Thanks for visiting.{' '}
           </p>
         </div>
+
+        {/*
         <div className="newsLetter" data-aos="fade-up">
           <h2>NewsLetter</h2>
           <p>I have a bunch of e-books, ask me if you are looking for something.</p>
@@ -108,6 +110,8 @@ export default function Footer() {
             </span>
           </div>
         </div>
+          */}
+
         <div className="follow" data-aos="fade-up">
           <h2>Do you like my page? </h2>
           <p>
