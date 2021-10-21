@@ -32,9 +32,6 @@ export default function AboutMe() {
                                 <h4>
                                     I'm <span>Muhammad Kholid</span>
                                 </h4>
-                                {/*<h5>*/}
-                                {/*A <span>Fullstack Javascript</span> Web Developer based in <span>Indonesia</span>.*/}
-                                {/*</h5>*/}
                                 <h5>
                                     A <span>Javascipt/Typescript Developer</span>
                                 </h5>
